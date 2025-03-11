@@ -17,8 +17,8 @@
   Add resume content here
 </div>
 
-  11. Bonus point: Add an image of yourself or of one of your artworks to the page
-  12. Second bonus point: Create your resume as a two-column grid, centered in the page (for people really diving into Bootstrap already)
+  11. Bonus point: Add an image of yourself or of one of your artworks to the page (DONE)
+  12. Second bonus point: Create your resume as a two-column grid, centered in the page (for people really diving into Bootstrap already) (DONE)
   -->
   <title>Juliana Huynh Resume</title>
   <meta name="viewport" content=""width=device-width, initial-scale=1.0>
@@ -26,23 +26,31 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <style>
+
     .container{
-      margin: 10px, auto;
       margin-top: 1rem;
+      color:rgb(113, 26, 160);
     }
     h1 {
       font-family:"Quicksand" ;
       color: rgb(183, 34, 216);
     }
+    
     .img{
       background-image: url(img/resume_photo_1.jpg);
-      width: 350px;
-      height: 400px;
+      width: 500px;
+      height: 550px;
+
     }
     p{
       font-size: large;
       font-family: "Montserrat";
       color: rgb(136, 125, 255);
+    }
+    li{
+      font-size: large;
+      font-family: "Montserrat";
+      color: rgb(48, 36, 184);
     }
     h2{
       font-size: 100;
@@ -61,13 +69,19 @@
 <h1>Juliana Huynh</h1>
 
   <div class="row">
-      <div class="col-sm-4 col-ms-4">
+      <div class="col">
         <div class="img">
         <!--load image-->
       </div>
+      <br>
+      <h2>Contact:</h2><p>
+        School Email:<a href="mailto:jth220004@utdallas.edu">jth220004@utdallas.edu</a> <br>
+        Personal Email:<a href="mailto:Juliana.Huynh3@gmail.com">Juliana.Huynh3@gmail.com</a><br>
+        832-785-8633
+        </p>
     </div>
 
-      <div class="col-sm-4 col-ms-4"><p>A current undergraduate student at The University of Texas at Dallas specializing in various categories of art, technology, and creative management.</p>
+      <div class="col"><p>A current undergraduate student at The University of Texas at Dallas specializing in various categories of art, technology, and creative management.</p>
         <h2>Education</h2>
         <ul>
           <li>The University of Texas at Dallas</li>
@@ -83,16 +97,6 @@
         </ul>
       </div>
       
-  </div>
-
-  <div class="row">
-    <div class="col-sm-4 col-ms-2"><h2>Contact:</h2><p>
-      School Email:<a href="mailto:jth220004@utdallas.edu">jth220004@utdallas.edu</a> <br>
-      Personal Email:<a href="mailto:Juliana.Huynh3@gmail.com">Juliana.Huynh3@gmail.com</a><br>
-      832-785-8633
-      </p>
-     </div>
-    <div class="col-sm-4 col-ms-2">Col Two</div>
   </div>
 
 </div>
